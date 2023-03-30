@@ -28,8 +28,8 @@ const displayPhone = (phones, dataLimit) => {
     phones.forEach(phone => {
         const div = document.createElement('div')
         div.innerHTML = `
-            <div class="col container">
-                        <div class="card h-100 w-75">
+            <div class="container">
+                        <div class="card h-100 w-75 mx-auto">
                             <img src="${phone.image}" class="card-img-top  w-75 mx-auto my-3" alt="...">
                             <div class="card-body d-flex align-items-center flex-column">
                         <h5 class="card-title">${phone.phone_name}</h5>
